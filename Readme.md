@@ -24,7 +24,7 @@ To successfully complete this demo, it is helpful if you have a basic understand
 
 Before starting this demo, you must:
 
-- Download the [marker.zip](../MarkerDownload/Marker.zip) file and extract it to a folder on your directory. 
+- Download the [marker.zip](./MarkerDownload/Marker.zip) file and extract it to a folder on your directory. 
 - That thing
 - The other thing
 
