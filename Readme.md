@@ -53,18 +53,24 @@ Before starting this demo, you must:
 
 This demo is comprised of the following tasks:
 
-- [Task 1](#Task1)
-- [Task 2](#Task2) 
-- [Task 3](#Task3)
+- [Creating a Demo Script](#Task1)
+- [Adding Code](#Task2) 
+- [Adding Screen Shots](#Task3)
 
 --- 
 
 <a name="Task1" />
-## Task 1 ##
+## Creating a Demo Script ##
 
-In this task we'll......
+In this task, you'll create a basic demo script using the template.  
 
-1. Do **This** using this code:
+1. Download the [Demo.zip](./Downloads/Demo.zip) file to a folder on your PC.  
+
+1. Right-click on the downloaded file, and select **"Properties"** from the pop-up menu:
+
+1. Open the file in Marker.exe 
+
+	> **Note:** if the file associations were created earlier
 
 ````C#
 void Main() {
