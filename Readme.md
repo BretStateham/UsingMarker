@@ -62,15 +62,38 @@ This demo is comprised of the following tasks:
 <a name="Task1" />
 ## Creating a Demo Script ##
 
-In this task, you'll create a basic demo script using the template.  
+In this task, you'll create a basic demo script using the template.  If you are working in a repository that has already been setup, then you may not need to do this, the initial structure may already be in place.  But if this is a new repository, and you are creating the structure, these steps will get you started. 
 
 1. Download the [Demo.zip](./Downloads/Demo.zip) file to a folder on your PC.  
 
-1. Right-click on the downloaded file, and select **"Properties"** from the pop-up menu:
+1. Right-click on the downloaded **"Demo.zip"** file, and select **"Properties"** from the pop-up menu:
 
-1. Open the file in Marker.exe 
+	![01010-Properties](images/01010-properties.png?raw=true "Properties Menu Item")
 
-	> **Note:** if the file associations were created earlier
+1. In the **"Demo.zip Properties"** window, click the **"Unblock"** button.  Then click the **"OK"** button to close the window.
+
+	> **Note:** This will keep Windows from prompting you with security concerns when you use extracted files.
+
+	![01020-DemoZipProperties](images/01020-demozipproperties.png?raw=true "Demo.zip Properties")
+
+1. Right-click on the **"Demo.zip"** again, this time select **"Extract All"** from the pop-up menu, then in the **"Extract Compressed (Zipped) Folders"** window, browse to, or type the target directory for the extraction, and click **"Extract"** 
+
+	![01030-ExtractZip](images/01030-extractzip.png?raw=true "Extract Demo.zip")
+
+1. You should now see the contents of the .zip file:
+
+	![01040-DemoZipContents](images/01040-demozipcontents.png?raw=true "Demo.zip Contents")
+
+	- **Assets Folder** - This is where you will place any assets or resources that are needed during the demo.  Things like Logo Images, completed code files, data files, etc.. Please try to keep a logical structure to the contents.  
+
+	- **Begin Folder** - This is where you will place any starter projects and solutions.  If the demo is long, it is helpful to have starting projects for various milestones throughout the project. 
+
+	- **End Folder** - This is where you will place any completed projects.  Again if the demo is long, it is helpful to have completed versions of the project at various milestones. Honestly, these are often the same as the **"Begin"** milestone projects.  The completed project from one step, is the beginning project for the next.  Regardless, you should have at least a single FINAL completed version of the projects.  
+
+	- **Images Folder** - Contains the images that you paste into the demo script in Marker. Marker uses this folder by default when it creates images on your behalf. 
+
+	- **Readme.md** - This is the actual demo script.  Naming it Readme.md rather than Demo.md or anything else makes it appear by default in the GitHub.com website view of the Demo folder.  
+
 
 ````C#
 void Main() {
