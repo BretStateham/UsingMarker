@@ -89,15 +89,50 @@ body{font-family:helvetica, arial, freesans, clean, sans-serif;color:#333;line-h
 
 <h2 id="Creating_a_Demo_Script">Creating a Demo Script</h2>
 
-<p>In this task, you'll create a basic demo script using the template.  </p>
+<p>In this task, you'll create a basic demo script using the template.  If you are working in a repository that has already been setup, then you may not need to do this, the initial structure may already be in place.  But if this is a new repository, and you are creating the structure, these steps will get you started. </p>
 
 <ol>
 <li><p>Download the <a href="./Downloads/Demo.zip">Demo.zip</a> file to a folder on your PC.  </p></li>
-<li><p>Right-click on the downloaded file, and select <strong>&quot;Properties&quot;</strong> from the pop-up menu:</p></li>
-<li><p>Open the file in Marker.exe </p>
+<li><p>Right-click on the downloaded <strong>&quot;Demo.zip&quot;</strong> file, and select <strong>&quot;Properties&quot;</strong> from the pop-up menu:</p>
+
+<p><img src="images/01010-properties.png?raw=true" alt="01010-Properties" title="Properties Menu Item">
+</p></li>
+<li><p>In the <strong>&quot;Demo.zip Properties&quot;</strong> window, click the <strong>&quot;Unblock&quot;</strong> button.  Then click the <strong>&quot;OK&quot;</strong> button to close the window.</p>
 <blockquote>
-<p><strong>Note:</strong> if the file associations were created earlier</p>
-</blockquote></li>
+<p><strong>Note:</strong> This will keep Windows from prompting you with security concerns when you use extracted files.</p>
+</blockquote>
+<p><img src="images/01020-demozipproperties.png?raw=true" alt="01020-DemoZipProperties" title="Demo.zip Properties">
+</p></li>
+<li><p>Right-click on the <strong>&quot;Demo.zip&quot;</strong> again, this time select <strong>&quot;Extract All&quot;</strong> from the pop-up menu, then in the <strong>&quot;Extract Compressed (Zipped) Folders&quot;</strong> window, browse to, or type the target directory for the extraction, and click <strong>&quot;Extract&quot;</strong> </p>
+
+<p><img src="images/01030-extractzip.png?raw=true" alt="01030-ExtractZip" title="Extract Demo.zip">
+</p></li>
+<li><p>You should now see the contents of the .zip file:</p>
+
+<p><img src="images/01040-demozipcontents.png?raw=true" alt="01040-DemoZipContents" title="Demo.zip Contents">
+</p>
+
+<ul>
+<li><strong>Assets Folder</strong> - This is where you will place any assets or resources that are needed during the demo.  Things like Logo Images, completed code files, data files, etc.. Please try to keep a logical structure to the contents.<br></li>
+<li><strong>Begin Folder</strong> - This is where you will place any starter projects and solutions.  If the demo is long, it is helpful to have starting projects for various milestones throughout the project. </li>
+<li><strong>End Folder</strong> - This is where you will place any completed projects.  Again if the demo is long, it is helpful to have completed versions of the project at various milestones. Honestly, these are often the same as the <strong>&quot;Begin&quot;</strong> milestone projects.  The completed project from one step, is the beginning project for the next.  Regardless, you should have at least a single FINAL completed version of the projects.<br></li>
+<li><strong>Images Folder</strong> - Contains the images that you paste into the demo script in Marker. Marker uses this folder by default when it creates images on your behalf. </li>
+<li><strong>Readme.md</strong> - This is the actual demo script.  Naming it Readme.md rather than Demo.md or anything else makes it appear by default in the GitHub.com website view of the Demo folder.<br></li>
+</ul>
+
+<p><img src="images/01050-readmemddisplay.png?raw=true" alt="01050-ReadmeMdDisplay" title="Readme.md Displays be Default in GitHub">
+</p></li>
+<li><p>Now open the Readme.md file in Marker.exe.  If you successfully created the file associations as described in the <strong>&quot;<a href="#Setup">Setup</a>&quot;</strong> section, you should be able to just right click on the file.  If not, just run Marker.exe from wherever you extracted it, and use the <strong>&quot;File&quot;</strong> | <strong>&quot;Open&quot;</strong> menu item to open the <strong>&quot;Readme.md&quot;</strong> file that you extracted into your demo folder.</p>
+
+<p><strong><em>Open by File Association:</em></strong></p>
+
+<p><img src="images/01060-markerassociationicon.png?raw=true" alt="01060-MarkerAssociationIcon" title="Marker File Association Icon">
+</p>
+
+<p><strong><em>Open from Marker menu:</em></strong></p>
+
+<p><img src="images/01070-openingreadme.png?raw=true" alt="01070-OpeningReadMe" title="File Open Readme.md">
+</p></li>
 </ol>
 
 <span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">void</span> Main() {

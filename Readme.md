@@ -1,11 +1,20 @@
 ﻿<a name="Title" />
-# Using Marker to create Demos #
+# Using Marker to Create Demos and Labs #
 ---
 
 <a name="Overview" />
 ## Overview ##
 
 This document covers how to use the Marker.exe (a markdown tool created by US DX) to create your demos.
+
+Marker helps you create **[GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)**.  **[Markdown](http://daringfireball.net/projects/markdown/)** is a markup language that is simpler than html, but that can be used (through a tool like Marker) to produce HTML.  **"GitHub Flavored Mardown"** adds a few features to the original [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) that makes it easier to add syntax-highligted code snippets as well as a number of other items to your markdown. 
+
+The markdown files aren't inteded for reading by a person.  The are a creation tool, not a content tool. Instead, you will use a tool like Marker to process the markdown and produce an HTML file as output.  Your readers would then read the .html file. 
+
+While Marker helps you create **"GitHub Flavored Markdown"**, you don't need to actually use GitHub as your repository.  The marker tool produces an .HTML file that can be read anywhere.  However, if you do use GitHub as the repository for your demo files, there are some benefits because of GitHub's built-in support for markdown. 
+
+Lastly, the Marker.exe tool is a tool that originally created by the Microsoft US Developer Platform Evangelism (DPE) team to help with creating labs and demos.  The tool was originally available in a separate GitHub repository which has since been taken off line.  I kept a .zip file with the relevant marker.exe tools in it for my personal use, and I provide that .zip file as a resource [here](./Downloads/Marker.zip).  
+
 
 ---
 
@@ -94,6 +103,29 @@ In this task, you'll create a basic demo script using the template.  If you are 
 
 	- **Readme.md** - This is the actual demo script.  Naming it Readme.md rather than Demo.md or anything else makes it appear by default in the GitHub.com website view of the Demo folder.  
 
+	![01050-ReadmeMdDisplay](images/01050-readmemddisplay.png?raw=true "Readme.md Displays be Default in GitHub")
+
+1. Now open the Readme.md file in Marker.exe.  If you successfully created the file associations as described in the **"[Setup](#Setup)"** section, you should be able to just right click on the file.  If not, just run Marker.exe from wherever you extracted it, and use the **"File"** | **"Open"** menu item to open the **"Readme.md"** file that you extracted into your demo folder.
+
+	***Open by File Association:***
+
+	![01060-MarkerAssociationIcon](images/01060-markerassociationicon.png?raw=true "Marker File Association Icon")
+
+	***Open from Marker menu:***
+
+	![01070-OpeningReadMe](images/01070-openingreadme.png?raw=true "File Open Readme.md")
+
+1. Regardless of how you open it, you should now see the default Readme.md file in Marker.
+
+	![01080-ReadMeInMarker](images/01080-readmeinmarker.png?raw=true "Readme.md in Marker")
+
+1. You should notice that there are two "columns" in the main Marker interface.  The left hand column is where you edit your Markdown.  The right-hand column is a live preview of the HTML web page that will be created based on your markdown. 
+
+	![01090-MarkerColumns](images/01090-markercolumns.png?raw=true "Marker Columns")
+
+1. Finally, you should see sample content for a demo.  You can simply replace the demo text with text that is appropriate for your demo, and of course add to it what is needed. Take some time to play around with the various toolbar and menu items to discover what they help you do:
+
+	![01100-MarkerToolbar](images/01100-markertoolbar.png?raw=true "Marker Toolbar")
 
 ````C#
 void Main() {
